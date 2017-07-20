@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rock, Paper, Scissors, Lizard, Spock</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="rpsls.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h1>Rock, Paper, Scissors, Lizard, Spock!</h1>
+            <button class="play-game"> Play! </button>
+        </div>
+        <div class="player-pick">
+            <div class="button-containers">
+                <!--Replacing buttons for images        -->
+                <img id='rock' src='https://s4.postimg.org/nd2p8ouj1/rock.png' alt='rock' title='rock'>
+                <!--       <button id="rock">Rock </button> -->
+                <img id='paper' src='https://s6.postimg.org/t71mggzyp/paper.png' alt='paper' title='paper'>
+                <!--       <button id="paper">Paper </button> -->
+                <img id='scissors' src='https://s6.postimg.org/imroxvvgx/scissors.png' alt='scissors' title='scissors'>
+                <!--       <button id="scissors">Scissors </button> -->
+                <img id='lizard' src='https://s6.postimg.org/g1m4ad635/lizard.png' alt='lizard' title='lizard'>
+                <!--       <button id="lizard">Lizard </button> -->
+                <img id='spock' src='https://s6.postimg.org/und4ym2vl/spock.png' alt='spock' title='spock'>
+                <!--       <button id="spock">Spock </button> -->
+            </div>
+            <div class="player-display">
+                <!--       This is where JS will show what the player picked -->
+            </div>
+        </div>
+        <div class="comp-pick">
+            <h3> Computer picks: </h3>
+            <p id="comp-output">This is where the computer displays it's action
+                <p>
+        </div>
+        <div class="scoreboard">
+            <h2> Scoreboard! </h2>
+            <div class="half-box result">
+                <h1 class="outcome"> RESULT! </h1>
+            </div>
+            <div class="half-box score">
+                <h5> Wins:
+                    <span class="wins"> 0 </span>
+                </h5>
+                <h5> Losses:
+                    <span class="losses"> 0 </span>
+                </h5>
+                <h5> Ties:
+                    <span class="ties"> 0 </span>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="rpsls.js">
+    </script>
+</body>
+
+</html>

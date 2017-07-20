@@ -1,0 +1,65 @@
+.main-container {
+    margin: auto;
+    width: 75%;
+    height: 630px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: 20%;
+    border: 1px solid blue;
+}
+
+.player-pick {
+    height: 25%;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.player-display {
+    padding: 3%;
+}
+
+.comp-pick {
+    height: 25%;
+    width: 100%;
+    border: 1px solid green;
+}
+
+.scoreboard {
+    height: 30%;
+    width: 100%;
+    border: 1px solid yellow;
+}
+
+.button-containers {
+    padding: 2%;
+    margin: 1%;
+    display: none;
+}
+
+.half-box {
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+.you-win {
+    color: blue;
+}
+
+.you-lose {
+    color: red;
+}
+
+.you-tie {
+    color: orange;
+}
+
+img {
+    max-height: 64px;
+    max-width: 64px;
+    margin: 0px 0px 10px 25px;
+}

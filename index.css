@@ -1,0 +1,18 @@
+.content-container {
+    padding: 70px 0px 40px 0px;
+}
+
+.section-title {
+    font-size: 225%;
+    padding: 20px 0px 20px 0px;
+}
+
+.footer {
+    position: fixed;
+    height: 30px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #292b2c;
+    text-align: center;
+}

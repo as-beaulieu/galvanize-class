@@ -1,0 +1,69 @@
+img {
+    max-height: 300px;
+    max-width: 250px;
+}
+
+.main-container {
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+/* Upper Navbar CSS*/
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navigation ul li {
+    display: inline;
+    float: left;
+}
+
+.navigation ul li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li:hover {
+    background-color: lightgray;
+}
+
+
+/* End Upper Navbar CSS */
+
+
+/* Sidebar CSS */
+
+.side-container {
+    border-right: 5px solid blue;
+    background: lightgray;
+    height: 600px;
+}
+
+
+/* End Sidebar CSS */
+
+.content {
+    width: 50%;
+    display: inline;
+}
+
+.vert-space-sm {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#des-text {
+    margin: 15px;
+}
